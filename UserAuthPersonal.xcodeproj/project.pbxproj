@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49ED222823216BAC00423220 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ED222723216BAC00423220 /* AppDelegate.swift */; };
+		49ED222A23216BAC00423220 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ED222923216BAC00423220 /* ViewController.swift */; };
+		49ED222D23216BAC00423220 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49ED222B23216BAC00423220 /* Main.storyboard */; };
+		49ED223023216BAC00423220 /* UserAuthPersonal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 49ED222E23216BAC00423220 /* UserAuthPersonal.xcdatamodeld */; };
+		49ED223223216BB000423220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49ED223123216BB000423220 /* Assets.xcassets */; };
+		49ED223523216BB000423220 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49ED223323216BB000423220 /* LaunchScreen.storyboard */; };
+		49ED224023216BB000423220 /* UserAuthPersonalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ED223F23216BB000423220 /* UserAuthPersonalTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49ED223C23216BB000423220 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49ED221C23216BAC00423220 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49ED222323216BAC00423220;
+			remoteInfo = UserAuthPersonal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49ED222423216BAC00423220 /* UserAuthPersonal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserAuthPersonal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49ED222723216BAC00423220 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49ED222923216BAC00423220 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49ED222C23216BAC00423220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49ED222F23216BAC00423220 /* UserAuthPersonal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserAuthPersonal.xcdatamodel; sourceTree = "<group>"; };
+		49ED223123216BB000423220 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49ED223423216BB000423220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49ED223623216BB000423220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49ED223B23216BB000423220 /* UserAuthPersonalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserAuthPersonalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49ED223F23216BB000423220 /* UserAuthPersonalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthPersonalTests.swift; sourceTree = "<group>"; };
+		49ED224123216BB000423220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49ED222123216BAC00423220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49ED223823216BB000423220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49ED221B23216BAC00423220 = {
+			isa = PBXGroup;
+			children = (
+				49ED222623216BAC00423220 /* UserAuthPersonal */,
+				49ED223E23216BB000423220 /* UserAuthPersonalTests */,
+				49ED222523216BAC00423220 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49ED222523216BAC00423220 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49ED222423216BAC00423220 /* UserAuthPersonal.app */,
+				49ED223B23216BB000423220 /* UserAuthPersonalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49ED222623216BAC00423220 /* UserAuthPersonal */ = {
+			isa = PBXGroup;
+			children = (
+				49ED222723216BAC00423220 /* AppDelegate.swift */,
+				49ED222923216BAC00423220 /* ViewController.swift */,
+				49ED222B23216BAC00423220 /* Main.storyboard */,
+				49ED223123216BB000423220 /* Assets.xcassets */,
+				49ED223323216BB000423220 /* LaunchScreen.storyboard */,
+				49ED223623216BB000423220 /* Info.plist */,
+				49ED222E23216BAC00423220 /* UserAuthPersonal.xcdatamodeld */,
+			);
+			path = UserAuthPersonal;
+			sourceTree = "<group>";
+		};
+		49ED223E23216BB000423220 /* UserAuthPersonalTests */ = {
+			isa = PBXGroup;
+			children = (
+				49ED223F23216BB000423220 /* UserAuthPersonalTests.swift */,
+				49ED224123216BB000423220 /* Info.plist */,
+			);
+			path = UserAuthPersonalTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49ED222323216BAC00423220 /* UserAuthPersonal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49ED224423216BB000423220 /* Build configuration list for PBXNativeTarget "UserAuthPersonal" */;
+			buildPhases = (
+				49ED222023216BAC00423220 /* Sources */,
+				49ED222123216BAC00423220 /* Frameworks */,
+				49ED222223216BAC00423220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UserAuthPersonal;
+			productName = UserAuthPersonal;
+			productReference = 49ED222423216BAC00423220 /* UserAuthPersonal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49ED223A23216BB000423220 /* UserAuthPersonalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49ED224723216BB000423220 /* Build configuration list for PBXNativeTarget "UserAuthPersonalTests" */;
+			buildPhases = (
+				49ED223723216BB000423220 /* Sources */,
+				49ED223823216BB000423220 /* Frameworks */,
+				49ED223923216BB000423220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49ED223D23216BB000423220 /* PBXTargetDependency */,
+			);
+			name = UserAuthPersonalTests;
+			productName = UserAuthPersonalTests;
+			productReference = 49ED223B23216BB000423220 /* UserAuthPersonalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49ED221C23216BAC00423220 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Tanishk;
+				TargetAttributes = {
+					49ED222323216BAC00423220 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					49ED223A23216BB000423220 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 49ED222323216BAC00423220;
+					};
+				};
+			};
+			buildConfigurationList = 49ED221F23216BAC00423220 /* Build configuration list for PBXProject "UserAuthPersonal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49ED221B23216BAC00423220;
+			productRefGroup = 49ED222523216BAC00423220 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49ED222323216BAC00423220 /* UserAuthPersonal */,
+				49ED223A23216BB000423220 /* UserAuthPersonalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49ED222223216BAC00423220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49ED223523216BB000423220 /* LaunchScreen.storyboard in Resources */,
+				49ED223223216BB000423220 /* Assets.xcassets in Resources */,
+				49ED222D23216BAC00423220 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49ED223923216BB000423220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49ED222023216BAC00423220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49ED222A23216BAC00423220 /* ViewController.swift in Sources */,
+				49ED223023216BAC00423220 /* UserAuthPersonal.xcdatamodeld in Sources */,
+				49ED222823216BAC00423220 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49ED223723216BB000423220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49ED224023216BB000423220 /* UserAuthPersonalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49ED223D23216BB000423220 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49ED222323216BAC00423220 /* UserAuthPersonal */;
+			targetProxy = 49ED223C23216BB000423220 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49ED222B23216BAC00423220 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49ED222C23216BAC00423220 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49ED223323216BB000423220 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49ED223423216BB000423220 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49ED224223216BB000423220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49ED224323216BB000423220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49ED224523216BB000423220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28J728ALQ5;
+				INFOPLIST_FILE = UserAuthPersonal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanishk.UserAuthPersonal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49ED224623216BB000423220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28J728ALQ5;
+				INFOPLIST_FILE = UserAuthPersonal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanishk.UserAuthPersonal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		49ED224823216BB000423220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28J728ALQ5;
+				INFOPLIST_FILE = UserAuthPersonalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanishk.UserAuthPersonalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UserAuthPersonal.app/UserAuthPersonal";
+			};
+			name = Debug;
+		};
+		49ED224923216BB000423220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28J728ALQ5;
+				INFOPLIST_FILE = UserAuthPersonalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanishk.UserAuthPersonalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UserAuthPersonal.app/UserAuthPersonal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49ED221F23216BAC00423220 /* Build configuration list for PBXProject "UserAuthPersonal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49ED224223216BB000423220 /* Debug */,
+				49ED224323216BB000423220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49ED224423216BB000423220 /* Build configuration list for PBXNativeTarget "UserAuthPersonal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49ED224523216BB000423220 /* Debug */,
+				49ED224623216BB000423220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49ED224723216BB000423220 /* Build configuration list for PBXNativeTarget "UserAuthPersonalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49ED224823216BB000423220 /* Debug */,
+				49ED224923216BB000423220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		49ED222E23216BAC00423220 /* UserAuthPersonal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				49ED222F23216BAC00423220 /* UserAuthPersonal.xcdatamodel */,
+			);
+			currentVersion = 49ED222F23216BAC00423220 /* UserAuthPersonal.xcdatamodel */;
+			path = UserAuthPersonal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 49ED221C23216BAC00423220 /* Project object */;
+}
