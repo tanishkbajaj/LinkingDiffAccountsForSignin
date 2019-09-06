@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4900F5102322451700F460E4 /* GoogleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4900F50F2322451700F460E4 /* GoogleButton.swift */; };
+		4975923E2322F3AD0007B382 /* DispViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4975923D2322F3AD0007B382 /* DispViewController.swift */; };
 		49ED222823216BAC00423220 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ED222723216BAC00423220 /* AppDelegate.swift */; };
 		49ED222A23216BAC00423220 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ED222923216BAC00423220 /* ViewController.swift */; };
 		49ED222D23216BAC00423220 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49ED222B23216BAC00423220 /* Main.storyboard */; };
@@ -14,6 +16,9 @@
 		49ED223223216BB000423220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49ED223123216BB000423220 /* Assets.xcassets */; };
 		49ED223523216BB000423220 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49ED223323216BB000423220 /* LaunchScreen.storyboard */; };
 		49ED224023216BB000423220 /* UserAuthPersonalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ED223F23216BB000423220 /* UserAuthPersonalTests.swift */; };
+		49ED224B23216D1900423220 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49ED224A23216D1900423220 /* GoogleService-Info.plist */; };
+		97D9526D66198E270410D0EE /* Pods_UserAuthPersonal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2C51FA12EE323CBA066A56 /* Pods_UserAuthPersonal.framework */; };
+		FE73561B6A2B9A5E36A75367 /* Pods_UserAuthPersonalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8ECBD7DCC38E964607A8F4 /* Pods_UserAuthPersonalTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4900F50F2322451700F460E4 /* GoogleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleButton.swift; sourceTree = "<group>"; };
+		4975923D2322F3AD0007B382 /* DispViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispViewController.swift; sourceTree = "<group>"; };
 		49ED222423216BAC00423220 /* UserAuthPersonal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserAuthPersonal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49ED222723216BAC00423220 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49ED222923216BAC00423220 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +45,13 @@
 		49ED223B23216BB000423220 /* UserAuthPersonalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserAuthPersonalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49ED223F23216BB000423220 /* UserAuthPersonalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthPersonalTests.swift; sourceTree = "<group>"; };
 		49ED224123216BB000423220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49ED224A23216D1900423220 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		812E3680583B16351A3BC6C0 /* Pods-UserAuthPersonal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserAuthPersonal.debug.xcconfig"; path = "Target Support Files/Pods-UserAuthPersonal/Pods-UserAuthPersonal.debug.xcconfig"; sourceTree = "<group>"; };
+		9A71249FEBE4AFAC415ED166 /* Pods-UserAuthPersonalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserAuthPersonalTests.debug.xcconfig"; path = "Target Support Files/Pods-UserAuthPersonalTests/Pods-UserAuthPersonalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A28041DD96C850FEC9AB1A6A /* Pods-UserAuthPersonal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserAuthPersonal.release.xcconfig"; path = "Target Support Files/Pods-UserAuthPersonal/Pods-UserAuthPersonal.release.xcconfig"; sourceTree = "<group>"; };
+		B69ADEDFAFE9E0B99D67822A /* Pods-UserAuthPersonalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserAuthPersonalTests.release.xcconfig"; path = "Target Support Files/Pods-UserAuthPersonalTests/Pods-UserAuthPersonalTests.release.xcconfig"; sourceTree = "<group>"; };
+		CB8ECBD7DCC38E964607A8F4 /* Pods_UserAuthPersonalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UserAuthPersonalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2C51FA12EE323CBA066A56 /* Pods_UserAuthPersonal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UserAuthPersonal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97D9526D66198E270410D0EE /* Pods_UserAuthPersonal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE73561B6A2B9A5E36A75367 /* Pods_UserAuthPersonalTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +80,8 @@
 				49ED222623216BAC00423220 /* UserAuthPersonal */,
 				49ED223E23216BB000423220 /* UserAuthPersonalTests */,
 				49ED222523216BAC00423220 /* Products */,
+				9775A5848F24908C679ABFCF /* Pods */,
+				86A55A7BCAD5C042E9ADBDAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,10 +100,13 @@
 				49ED222723216BAC00423220 /* AppDelegate.swift */,
 				49ED222923216BAC00423220 /* ViewController.swift */,
 				49ED222B23216BAC00423220 /* Main.storyboard */,
+				4975923D2322F3AD0007B382 /* DispViewController.swift */,
+				4900F50F2322451700F460E4 /* GoogleButton.swift */,
 				49ED223123216BB000423220 /* Assets.xcassets */,
 				49ED223323216BB000423220 /* LaunchScreen.storyboard */,
 				49ED223623216BB000423220 /* Info.plist */,
 				49ED222E23216BAC00423220 /* UserAuthPersonal.xcdatamodeld */,
+				49ED224A23216D1900423220 /* GoogleService-Info.plist */,
 			);
 			path = UserAuthPersonal;
 			sourceTree = "<group>";
@@ -99,6 +120,26 @@
 			path = UserAuthPersonalTests;
 			sourceTree = "<group>";
 		};
+		86A55A7BCAD5C042E9ADBDAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE2C51FA12EE323CBA066A56 /* Pods_UserAuthPersonal.framework */,
+				CB8ECBD7DCC38E964607A8F4 /* Pods_UserAuthPersonalTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9775A5848F24908C679ABFCF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				812E3680583B16351A3BC6C0 /* Pods-UserAuthPersonal.debug.xcconfig */,
+				A28041DD96C850FEC9AB1A6A /* Pods-UserAuthPersonal.release.xcconfig */,
+				9A71249FEBE4AFAC415ED166 /* Pods-UserAuthPersonalTests.debug.xcconfig */,
+				B69ADEDFAFE9E0B99D67822A /* Pods-UserAuthPersonalTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +147,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49ED224423216BB000423220 /* Build configuration list for PBXNativeTarget "UserAuthPersonal" */;
 			buildPhases = (
+				9CD28E66EAD50E2EA468DF4A /* [CP] Check Pods Manifest.lock */,
 				49ED222023216BAC00423220 /* Sources */,
 				49ED222123216BAC00423220 /* Frameworks */,
 				49ED222223216BAC00423220 /* Resources */,
+				ED7D5B3BE06C04DA423EF774 /* [CP] Embed Pods Frameworks */,
+				6E51CA372FDA219059622B72 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +167,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49ED224723216BB000423220 /* Build configuration list for PBXNativeTarget "UserAuthPersonalTests" */;
 			buildPhases = (
+				D336B7A7F5BD17E3AC400A77 /* [CP] Check Pods Manifest.lock */,
 				49ED223723216BB000423220 /* Sources */,
 				49ED223823216BB000423220 /* Frameworks */,
 				49ED223923216BB000423220 /* Resources */,
@@ -181,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49ED223523216BB000423220 /* LaunchScreen.storyboard in Resources */,
+				49ED224B23216D1900423220 /* GoogleService-Info.plist in Resources */,
 				49ED223223216BB000423220 /* Assets.xcassets in Resources */,
 				49ED222D23216BAC00423220 /* Main.storyboard in Resources */,
 			);
@@ -195,13 +241,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6E51CA372FDA219059622B72 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UserAuthPersonal/Pods-UserAuthPersonal-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UserAuthPersonal/Pods-UserAuthPersonal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CD28E66EAD50E2EA468DF4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UserAuthPersonal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D336B7A7F5BD17E3AC400A77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UserAuthPersonalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED7D5B3BE06C04DA423EF774 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UserAuthPersonal/Pods-UserAuthPersonal-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AppAuth/AppAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMAppAuth/GTMAppAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMAppAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UserAuthPersonal/Pods-UserAuthPersonal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		49ED222023216BAC00423220 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				49ED222A23216BAC00423220 /* ViewController.swift in Sources */,
+				4975923E2322F3AD0007B382 /* DispViewController.swift in Sources */,
 				49ED223023216BAC00423220 /* UserAuthPersonal.xcdatamodeld in Sources */,
+				4900F5102322451700F460E4 /* GoogleButton.swift in Sources */,
 				49ED222823216BAC00423220 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,6 +511,7 @@
 		};
 		49ED224523216BB000423220 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 812E3680583B16351A3BC6C0 /* Pods-UserAuthPersonal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -380,6 +530,7 @@
 		};
 		49ED224623216BB000423220 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A28041DD96C850FEC9AB1A6A /* Pods-UserAuthPersonal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -398,6 +549,7 @@
 		};
 		49ED224823216BB000423220 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A71249FEBE4AFAC415ED166 /* Pods-UserAuthPersonalTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -419,6 +571,7 @@
 		};
 		49ED224923216BB000423220 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B69ADEDFAFE9E0B99D67822A /* Pods-UserAuthPersonalTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

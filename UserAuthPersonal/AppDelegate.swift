@@ -8,17 +8,82 @@
 
 import UIKit
 import CoreData
+import Firebase
+import GoogleSignIn
+
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
+    
+    
+    
+   let vc = ViewController()
 
     var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        FirebaseApp.configure()
+        GIDSignIn.sharedInstance().clientID = FirebaseApp.app()?.options.clientID
+        GIDSignIn.sharedInstance()?.delegate = self
+        
         return true
     }
+    
+    
+    
+   
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any]) -> Bool {
+        return GIDSignIn.sharedInstance().handle(url)
+    }
+    
+    
+    
+        func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
+
+            if let err = error {
+                print("Failed to log into google: ", err)
+                return
+            } else {
+            print("Succesfully logged in: ", user)
+            
+            
+            
+            
+            guard let authentication = user.authentication else { return }
+            let credential = GoogleAuthProvider.credential(withIDToken: authentication.idToken,
+                                                           accessToken: authentication.accessToken)
+                
+                
+           
+                Auth.auth().currentUser?.link(with: credential) { (authResult, error) in
+                    if error == nil {
+                        
+                        print(authResult?.user.email)
+                        print(authResult?.user.displayName)
+                        self.window?.rootViewController?.performSegue(withIdentifier: "home", sender: nil)
+                    }
+                        
+                    else {
+                        
+                        print(error?.localizedDescription)
+                    }
+                }
+                
+                let prevUser = Auth.auth().currentUser
+                Auth.auth().signIn(with: credential) { (authResult, error) in
+                    if let error = error {
+                        // ...
+                        return
+                    }
+                    // User is signed in
+                    // ...
+                    self.window?.rootViewController?.performSegue(withIdentifier: "home", sender: nil)
+                }
+                
+            }
+        }
+    
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
